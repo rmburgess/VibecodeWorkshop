@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "export PATH=/usr/local/bin:/opt/homebrew/bin:$PATH; cd \"$CLAUDE_PROJECT_DIR\" && npm test"
+          }
+        ]
+      }
+    ]
+  }
+}
